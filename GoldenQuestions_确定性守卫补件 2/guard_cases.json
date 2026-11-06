@@ -1,0 +1,352 @@
+{
+  "knowledge_set": "GOLDEN_QUESTIONS_100",
+  "source_sha256": "58efa4c0ad57853a6657baf4bc700df41944959a1dbb43405574707da6500a8b",
+  "red_line_terms_count": 31,
+  "human_service_terms_count": 14,
+  "cases": [
+    {
+      "id": "RED-01",
+      "message": "自杀",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-02",
+      "message": "自殺",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-03",
+      "message": "跳楼",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-04",
+      "message": "跳樓",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-05",
+      "message": "轻生",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-06",
+      "message": "輕生",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-07",
+      "message": "寻短见",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-08",
+      "message": "尋短見",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-09",
+      "message": "不想活",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-10",
+      "message": "活不下去",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-11",
+      "message": "不想再活",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-12",
+      "message": "不想继续活",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-13",
+      "message": "结束生命",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-14",
+      "message": "結束生命",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-15",
+      "message": "结束自己的生命",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-16",
+      "message": "結束自己的生命",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-17",
+      "message": "结束我的生命",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-18",
+      "message": "想死",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-19",
+      "message": "去死",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-20",
+      "message": "割腕",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-21",
+      "message": "伤害自己",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-22",
+      "message": "傷害自己",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-23",
+      "message": "跳下去",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-24",
+      "message": "跳河",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-25",
+      "message": "跳海",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-26",
+      "message": "上吊",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-27",
+      "message": "suicide",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-28",
+      "message": "suicidal",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-29",
+      "message": "killmyself",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-30",
+      "message": "endmylife",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "RED-31",
+      "message": "selfharm",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "HUMAN-01",
+      "message": "转人工",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-02",
+      "message": "轉人工",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-03",
+      "message": "找人工",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-04",
+      "message": "人工客服",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-05",
+      "message": "人工服务",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-06",
+      "message": "人工服務",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-07",
+      "message": "真人客服",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-08",
+      "message": "人工处理",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-09",
+      "message": "人工處理",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-10",
+      "message": "人工核验",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-11",
+      "message": "人工核驗",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-12",
+      "message": "人工热线",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-13",
+      "message": "humanagent",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "HUMAN-14",
+      "message": "humanservice",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "normal-repair",
+      "message": "卫生间水龙头漏水，可以报修吗？",
+      "estate_id": "E001",
+      "expected_reason_code": null
+    },
+    {
+      "id": "normalized-human",
+      "message": "請 轉！人‍工　",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "nfkc-red",
+      "message": "ＳＵＩＣＩＤＥ",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "regex-red",
+      "message": "从阳台跳出去",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "red-priority",
+      "message": "请转人工客服，我不想活。",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    },
+    {
+      "id": "amusement-simplified",
+      "message": "周末哪里能玩跳楼机？",
+      "estate_id": "E001",
+      "expected_reason_code": null
+    },
+    {
+      "id": "amusement-traditional",
+      "message": "我想玩跳樓機。",
+      "estate_id": "E001",
+      "expected_reason_code": null
+    },
+    {
+      "id": "amusement-human",
+      "message": "问一下跳楼机，帮我找人工。",
+      "estate_id": "E001",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "amusement-other-risk",
+      "message": "跳楼机，我不想活。",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    }
+  ],
+  "cli_examples": [
+    {
+      "id": "normal-repair",
+      "message": "卫生间水龙头漏水，可以报修吗？",
+      "estate_id": "E001",
+      "expected_reason_code": null
+    },
+    {
+      "id": "normalized-human",
+      "message": "請 轉！人‍工　",
+      "estate_id": "E002",
+      "expected_reason_code": "USER_REQUEST"
+    },
+    {
+      "id": "red-priority",
+      "message": "请转人工客服，我不想活。",
+      "estate_id": "E001",
+      "expected_reason_code": "RED_LINE"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "knowledge_set": "GOLDEN_QUESTIONS_100",
+  "source_sha256": "58efa4c0ad57853a6657baf4bc700df41944959a1dbb43405574707da6500a8b",
+  "normalization": {
+    "unicode": "NFKC",
+    "case_mapping": "casefold",
+    "category_prefixes_kept": [
+      "L",
+      "N"
+    ]
+  },
+  "remove_only_from_risk_text": [
+    "跳楼机",
+    "跳樓機"
+  ],
+  "red_line_terms": [
+    "自杀",
+    "自殺",
+    "跳楼",
+    "跳樓",
+    "轻生",
+    "輕生",
+    "寻短见",
+    "尋短見",
+    "不想活",
+    "活不下去",
+    "不想再活",
+    "不想继续活",
+    "结束生命",
+    "結束生命",
+    "结束自己的生命",
+    "結束自己的生命",
+    "结束我的生命",
+    "想死",
+    "去死",
+    "割腕",
+    "伤害自己",
+    "傷害自己",
+    "跳下去",
+    "跳河",
+    "跳海",
+    "上吊",
+    "suicide",
+    "suicidal",
+    "killmyself",
+    "endmylife",
+    "selfharm"
+  ],
+  "red_line_regex": "(?:从|從).{0,12}(?:楼|樓|天台|阳台|陽台).{0,8}跳(?:下|出去)",
+  "human_service_terms": [
+    "转人工",
+    "轉人工",
+    "找人工",
+    "人工客服",
+    "人工服务",
+    "人工服務",
+    "真人客服",
+    "人工处理",
+    "人工處理",
+    "人工核验",
+    "人工核驗",
+    "人工热线",
+    "humanagent",
+    "humanservice"
+  ],
+  "priority": [
+    "RED_LINE",
+    "USER_REQUEST",
+    null
+  ],
+  "fixed_service_reply": "我是华润置地客服小助手，只能提供报事报修、活动查询和报名、城市资讯查询以及项目基础信息查询等相关功能！如果您有以上相关服务类问题，欢迎您再次联系我；如果您需要人工服务，可以拨打华润置地客户服务热线4001099888，我们将竭诚为您服务"
+}
